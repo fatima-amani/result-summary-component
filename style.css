@@ -148,5 +148,23 @@ main{
 }
 
 @media (max-width: 600px) {
-    
+    body{
+        flex-direction: column;
+        padding: 0;        
+    }
+    main{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .result{
+        z-index: 1;
+        margin: 0;
+        width: 99%;        
+    }
+    .summary{
+        margin: 0;
+        width: 99%;
+    }
+
 }
