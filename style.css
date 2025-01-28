@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.result{
+    height: 24rem;
+    width: 17rem;
+    background-color: #5d3efb;
+    border-radius: 1rem;
+    color: #fffdfe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result h5{
+    font-size: 1.1rem;
+}
+.score{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #4a26d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.score-val {
+    font-size: xxx-large;
+    margin-top: 2.5rem;
+    font-weight: 800;
+}
+.result-info{
+    text-align: center;
+    padding: 0 13%;
+    margin-top: 1rem;
+}
+
+.result-info-title{
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+.result-info p{
+    margin-top: 1rem;
+    opacity: 0.7;
+}
